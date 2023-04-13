@@ -1,0 +1,40 @@
+body {
+    font-family: 'Montserrat';
+    background-color: #f5f5f5;
+    font-size: 1.5rem;
+  }
+
+  .icon-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    float: left; 
+    background-color: #f5f5f5;
+  }
+
+  .icon-container:hover {
+    background-color: #f5f5f5;
+  }
+
+  .icon-container i {
+    font-size: 64px;
+    color: #ef8172;
+    margin-bottom: 20px;
+  }
+
+  .icon-container:hover i {
+    color: #ff4c68;
+  }
+
+  @media screen and (min-width: 960px) {
+    .icon-container {
+      width: 33.3%;
+    }
+  }
+  
+  @media screen and (max-width: 720px) {
+    .icon-container {
+      width: 100%;
+    }
+  }
